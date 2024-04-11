@@ -9,15 +9,23 @@ package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.12"
-matplotlib = "^3.8.4"
+
+# Common Jupyter Notebook Dependencies
+[tool.poetry.group.notebooks.dependencies]
+ipykernel = "^6.29.4"
 ipywidgets = "^8.1.2"
-numpy = "^1.26.4"
-pandas = "^2.2.2"
 tqdm = "^4.66.2"
+# Charting
+matplotlib = "^3.8.4"
+plotly = "^5.20.0"
+# Data Science
+pandas = "^2.2.2"
+numpy = "^1.26.4"
+
+# Common Machine Learning Dependencies
+[tool.poetry.group.ml.dependencies]
 torch = "^2.2.2"
 torchvision = "^0.17.2"
-ipykernel = "^6.29.4"
-
 
 [build-system]
 requires = ["poetry-core"]
