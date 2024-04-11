@@ -21,10 +21,11 @@
 	"customizations": {
 		"vscode": {
 			"settings": {
-				"python.terminal.activateEnvInCurrentTerminal": true,
-				"python.defaultInterpreterPath": ".venv/bin/python",
 				"python.selectInterpreter": ".venv/bin/python",
-				"python.venvPath": ".venv"
+				"python.venvPath": ".venv",
+				// Same as in .vscode/settings.json
+				"python.terminal.activateEnvInCurrentTerminal": true,
+				"python.defaultInterpreterPath": ".venv/bin/python"
 			},
 			"extensions": [
 				"ms-python.python",
