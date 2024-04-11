@@ -23,7 +23,8 @@
 			"settings": {
 				"python.terminal.activateEnvInCurrentTerminal": true,
 				"python.defaultInterpreterPath": ".venv/bin/python",
-				"python.selectInterpreter": ".venv/bin/python"
+				"python.selectInterpreter": ".venv/bin/python",
+				"python.venvPath": ".venv"
 			},
 			"extensions": [
 				"ms-python.python",
