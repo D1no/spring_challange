@@ -29,6 +29,9 @@ nbformat = "^5.10.4"
 # Data Science
 pandas = "^2.2.2"
 numpy = "^1.26.4"
+# 3D File Import
+plyfile = "^1.0.3"
+
 
 [tool.poetry.group.ml.dependencies]
 # Common Machine Learning Dependencies

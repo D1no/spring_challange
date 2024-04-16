@@ -1432,6 +1432,20 @@ packaging = "*"
 tenacity = ">=6.2.0"
 
 [[package]]
+name = "plyfile"
+version = "1.0.3"
+description = "PLY file reader/writer"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "plyfile-1.0.3-py3-none-any.whl", hash = "sha256:66255dca882553f1fcd0c01fd8444bb4c6cf3965c7659106bf7c6c1ac6793a08"},
+    {file = "plyfile-1.0.3.tar.gz", hash = "sha256:0ecbe8e7ce55a7bbc6c9dea24242fffa0ab7d9bed33fbd5ad567ca013bcc5222"},
+]
+
+[package.dependencies]
+numpy = ">=1.17"
+
+[[package]]
 name = "prompt-toolkit"
 version = "3.0.43"
 description = "Library for building powerful interactive command lines in Python"
@@ -2073,4 +2087,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "f25d83265541d1cb7d928ca3495fa91a626c1de3c80af617f6e3914f02a8595c"
+content-hash = "e4c82e67597a9761002b447bb13f5cc71ad2ad16a4c1553d968074720e604447"
